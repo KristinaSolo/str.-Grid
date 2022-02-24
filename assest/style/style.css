@@ -1,0 +1,85 @@
+.conteiner {
+    display: grid;
+    grid-template-columns: 3fr 20%;
+    grid-template-rows: 8% 1fr 15%;
+    height: 140vh;
+    padding: 25px;
+  
+
+
+}
+
+h1,
+h2,
+H4,
+p {
+    
+font-family: 'Manrope', sans-serif;
+font-weight: 400;
+}
+
+header,
+footer {
+    grid-column: 1/4;
+    background-color: #ECECEC 
+
+}
+
+.headnov {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.menunov {
+   
+    text-decoration: none;
+    color: black;
+
+}
+
+.menunov:hover {
+    text-decoration: underline;
+}
+
+.osovamain {
+    display: grid;
+    grid-template-columns: 35% 60%;
+    grid-gap: 25px;
+
+}
+
+.mainblok1,
+.mainblok3 {
+    text-align: center;
+}
+
+.mainblok2,
+.mainblok4 {
+    justify-self: flex-end;
+}
+
+.bootnov {
+    background-color: #40c752;
+    color: bisque;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.flower {
+    border-radius: 25px;
+
+}
+
+.conteinerfoot {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.imgffoot {
+    margin-left: 15px;
+    border-style: inset;
+}
+
